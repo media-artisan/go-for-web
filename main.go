@@ -9,6 +9,7 @@ import (
 	_ "github.com/mattn/go-sqlite3"
 )
 
+// Page represents web page index.html
 type Page struct {
 	Name     string
 	DBStatus bool
